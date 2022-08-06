@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		05E31B59274EF0700083FCB6 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E31B57274EF0360083FCB6 /* GameController.framework */; };
-		07A82EDB213941D00078D120 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A82EDA213941D00078D120 /* imgui_widgets.cpp */; };
 		4080A99820B02D340036BA46 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4080A98A20B02CD90036BA46 /* main.mm */; };
-		4080A9AD20B0343C0036BA46 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4080A9A620B0343C0036BA46 /* imgui_demo.cpp */; };
-		4080A9AE20B0343C0036BA46 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4080A9A720B0343C0036BA46 /* imgui.cpp */; };
-		4080A9AF20B0343C0036BA46 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4080A9AA20B0343C0036BA46 /* imgui_draw.cpp */; };
-		4080A9B020B0347A0036BA46 /* imgui_impl_osx.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4080A99F20B034280036BA46 /* imgui_impl_osx.mm */; };
 		4080A9B320B034E40036BA46 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4080A9B220B034E40036BA46 /* Cocoa.framework */; };
 		4080A9B520B034EA0036BA46 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4080A9B420B034EA0036BA46 /* OpenGL.framework */; };
-		43D9191C289E82B5007EEECF /* imgui_impl_opengl3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43D9191B289E82B5007EEECF /* imgui_impl_opengl3.cpp */; };
-		50798230257677FD0038A28D /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5079822F257677FC0038A28D /* imgui_tables.cpp */; };
+		43FF93DD289E8B9C0078C128 /* imgui_impl_osx.mm in Sources */ = {isa = PBXBuildFile; fileRef = 43FF93DC289E8B530078C128 /* imgui_impl_osx.mm */; };
+		43FF93DE289E8B9E0078C128 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43FF93D0289E895C0078C128 /* imgui_draw.cpp */; };
+		43FF93DF289E8B9F0078C128 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43FF93CD289E895C0078C128 /* imgui_demo.cpp */; };
+		43FF93E0289E8BA10078C128 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43FF93CC289E895C0078C128 /* imgui_widgets.cpp */; };
+		43FF93E1289E8BA40078C128 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43FF93D2289E895C0078C128 /* imgui.cpp */; };
+		43FF93E2289E8BA60078C128 /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43FF93CE289E895C0078C128 /* imgui_tables.cpp */; };
+		43FF93E3289E8BA80078C128 /* imgui_impl_opengl3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43FF93D7289E89950078C128 /* imgui_impl_opengl3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,23 +34,26 @@
 
 /* Begin PBXFileReference section */
 		05E31B57274EF0360083FCB6 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
-		07A82EDA213941D00078D120 /* imgui_widgets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_widgets.cpp; path = ../imgui/imgui_widgets.cpp; sourceTree = "<group>"; };
 		4080A96B20B029B00036BA46 /* example_osx_opengl3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = example_osx_opengl3; sourceTree = BUILT_PRODUCTS_DIR; };
 		4080A98A20B02CD90036BA46 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = SOURCE_ROOT; };
-		4080A99F20B034280036BA46 /* imgui_impl_osx.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = imgui_impl_osx.mm; path = ../imgui/backends/imgui_impl_osx.mm; sourceTree = "<group>"; };
-		4080A9A120B034280036BA46 /* imgui_impl_osx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui_impl_osx.h; path = ../imgui/backends/imgui_impl_osx.h; sourceTree = "<group>"; };
-		4080A9A520B0343C0036BA46 /* imgui_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui_internal.h; path = ../imgui/imgui_internal.h; sourceTree = "<group>"; };
-		4080A9A620B0343C0036BA46 /* imgui_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_demo.cpp; path = ../imgui/imgui_demo.cpp; sourceTree = "<group>"; };
-		4080A9A720B0343C0036BA46 /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui.cpp; path = ../imgui/imgui.cpp; sourceTree = "<group>"; };
-		4080A9A820B0343C0036BA46 /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui.h; path = ../imgui/imgui.h; sourceTree = "<group>"; };
-		4080A9AA20B0343C0036BA46 /* imgui_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_draw.cpp; path = ../imgui/imgui_draw.cpp; sourceTree = "<group>"; };
-		4080A9AC20B0343C0036BA46 /* imconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imconfig.h; path = ../imgui/imconfig.h; sourceTree = "<group>"; };
 		4080A9B220B034E40036BA46 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4080A9B420B034EA0036BA46 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		43D9191A289E82B5007EEECF /* imgui_impl_opengl3_loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui_impl_opengl3_loader.h; path = ../imgui/backends/imgui_impl_opengl3_loader.h; sourceTree = "<group>"; };
-		43D9191B289E82B5007EEECF /* imgui_impl_opengl3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_impl_opengl3.cpp; path = ../imgui/backends/imgui_impl_opengl3.cpp; sourceTree = "<group>"; };
-		43D9191D289E82DE007EEECF /* imgui_impl_opengl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui_impl_opengl3.h; path = ../imgui/backends/imgui_impl_opengl3.h; sourceTree = "<group>"; };
-		5079822F257677FC0038A28D /* imgui_tables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_tables.cpp; path = ../imgui/imgui_tables.cpp; sourceTree = "<group>"; };
+		43FF93C9289E895C0078C128 /* imgui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgui.h; sourceTree = "<group>"; };
+		43FF93CA289E895C0078C128 /* imconfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imconfig.h; sourceTree = "<group>"; };
+		43FF93CC289E895C0078C128 /* imgui_widgets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_widgets.cpp; sourceTree = "<group>"; };
+		43FF93CD289E895C0078C128 /* imgui_demo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_demo.cpp; sourceTree = "<group>"; };
+		43FF93CE289E895C0078C128 /* imgui_tables.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_tables.cpp; sourceTree = "<group>"; };
+		43FF93D0289E895C0078C128 /* imgui_draw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_draw.cpp; sourceTree = "<group>"; };
+		43FF93D1289E895C0078C128 /* imgui_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgui_internal.h; sourceTree = "<group>"; };
+		43FF93D2289E895C0078C128 /* imgui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui.cpp; sourceTree = "<group>"; };
+		43FF93D7289E89950078C128 /* imgui_impl_opengl3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_opengl3.cpp; sourceTree = "<group>"; };
+		43FF93D8289E89950078C128 /* imgui_impl_opengl3_loader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgui_impl_opengl3_loader.h; sourceTree = "<group>"; };
+		43FF93D9289E89950078C128 /* imgui_impl_opengl3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgui_impl_opengl3.h; sourceTree = "<group>"; };
+		43FF93DB289E89B00078C128 /* imgui_impl_osx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgui_impl_osx.h; sourceTree = "<group>"; };
+		43FF93DC289E8B530078C128 /* imgui_impl_osx.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = imgui_impl_osx.mm; sourceTree = "<group>"; };
+		43FF93E4289E8BC40078C128 /* imstb_textedit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imstb_textedit.h; sourceTree = "<group>"; };
+		43FF93E5289E8BE00078C128 /* imstb_rectpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imstb_rectpack.h; sourceTree = "<group>"; };
+		43FF93E6289E8BF30078C128 /* imstb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imstb_truetype.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,20 +73,15 @@
 		4080A96220B029B00036BA46 = {
 			isa = PBXGroup;
 			children = (
-				43D9191D289E82DE007EEECF /* imgui_impl_opengl3.h */,
-				43D9191A289E82B5007EEECF /* imgui_impl_opengl3_loader.h */,
-				43D9191B289E82B5007EEECF /* imgui_impl_opengl3.cpp */,
-				5079822F257677FC0038A28D /* imgui_tables.cpp */,
-				4080A9AC20B0343C0036BA46 /* imconfig.h */,
-				4080A9A720B0343C0036BA46 /* imgui.cpp */,
-				4080A9A820B0343C0036BA46 /* imgui.h */,
-				07A82EDA213941D00078D120 /* imgui_widgets.cpp */,
-				4080A9A620B0343C0036BA46 /* imgui_demo.cpp */,
-				4080A9AA20B0343C0036BA46 /* imgui_draw.cpp */,
-				4080A9A520B0343C0036BA46 /* imgui_internal.h */,
-				4080A9A120B034280036BA46 /* imgui_impl_osx.h */,
-				4080A99F20B034280036BA46 /* imgui_impl_osx.mm */,
+				43FF93C8289E89530078C128 /* imgui */,
 				4080A98A20B02CD90036BA46 /* main.mm */,
+				43FF93DC289E8B530078C128 /* imgui_impl_osx.mm */,
+				43FF93D7289E89950078C128 /* imgui_impl_opengl3.cpp */,
+				43FF93D2289E895C0078C128 /* imgui.cpp */,
+				43FF93CE289E895C0078C128 /* imgui_tables.cpp */,
+				43FF93CC289E895C0078C128 /* imgui_widgets.cpp */,
+				43FF93CD289E895C0078C128 /* imgui_demo.cpp */,
+				43FF93D0289E895C0078C128 /* imgui_draw.cpp */,
 				4080A96C20B029B00036BA46 /* Products */,
 				4080A9B120B034E40036BA46 /* Frameworks */,
 			);
@@ -105,6 +103,30 @@
 				4080A9B220B034E40036BA46 /* Cocoa.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43FF93C8289E89530078C128 /* imgui */ = {
+			isa = PBXGroup;
+			children = (
+				43FF93D6289E898A0078C128 /* backends */,
+				43FF93CA289E895C0078C128 /* imconfig.h */,
+				43FF93E6289E8BF30078C128 /* imstb_truetype.h */,
+				43FF93E5289E8BE00078C128 /* imstb_rectpack.h */,
+				43FF93E4289E8BC40078C128 /* imstb_textedit.h */,
+				43FF93C9289E895C0078C128 /* imgui.h */,
+				43FF93D1289E895C0078C128 /* imgui_internal.h */,
+			);
+			path = imgui;
+			sourceTree = "<group>";
+		};
+		43FF93D6289E898A0078C128 /* backends */ = {
+			isa = PBXGroup;
+			children = (
+				43FF93DB289E89B00078C128 /* imgui_impl_osx.h */,
+				43FF93D9289E89950078C128 /* imgui_impl_opengl3.h */,
+				43FF93D8289E89950078C128 /* imgui_impl_opengl3_loader.h */,
+			);
+			path = backends;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,14 +187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43FF93DE289E8B9E0078C128 /* imgui_draw.cpp in Sources */,
+				43FF93DD289E8B9C0078C128 /* imgui_impl_osx.mm in Sources */,
+				43FF93E3289E8BA80078C128 /* imgui_impl_opengl3.cpp in Sources */,
+				43FF93DF289E8B9F0078C128 /* imgui_demo.cpp in Sources */,
+				43FF93E0289E8BA10078C128 /* imgui_widgets.cpp in Sources */,
 				4080A99820B02D340036BA46 /* main.mm in Sources */,
-				4080A9AD20B0343C0036BA46 /* imgui_demo.cpp in Sources */,
-				43D9191C289E82B5007EEECF /* imgui_impl_opengl3.cpp in Sources */,
-				4080A9AF20B0343C0036BA46 /* imgui_draw.cpp in Sources */,
-				4080A9B020B0347A0036BA46 /* imgui_impl_osx.mm in Sources */,
-				4080A9AE20B0343C0036BA46 /* imgui.cpp in Sources */,
-				50798230257677FD0038A28D /* imgui_tables.cpp in Sources */,
-				07A82EDB213941D00078D120 /* imgui_widgets.cpp in Sources */,
+				43FF93E2289E8BA60078C128 /* imgui_tables.cpp in Sources */,
+				43FF93E1289E8BA40078C128 /* imgui.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /Users/alepacho/Public/hlml/imgui;
+				HEADER_SEARCH_PATHS = ./imgui;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -286,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /Users/alepacho/Public/hlml/imgui;
+				HEADER_SEARCH_PATHS = ./imgui;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;

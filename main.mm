@@ -14,8 +14,8 @@
 
 #include "imgui.h"
 // #include "imgui_impl_opengl2.h"
-#include "imgui_impl_opengl3.h"
-#include "imgui_impl_osx.h"
+#include "imgui/backends/imgui_impl_opengl3.h"
+#include "imgui/backends/imgui_impl_osx.h"
 
 //-----------------------------------------------------------------------------------
 // AppView

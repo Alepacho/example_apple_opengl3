@@ -18,6 +18,7 @@
 		43FF93E1289E8BA40078C128 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43FF93D2289E895C0078C128 /* imgui.cpp */; };
 		43FF93E2289E8BA60078C128 /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43FF93CE289E895C0078C128 /* imgui_tables.cpp */; };
 		43FF93E3289E8BA80078C128 /* imgui_impl_opengl3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43FF93D7289E89950078C128 /* imgui_impl_opengl3.cpp */; };
+		43FF93E9289E91960078C128 /* ExampleAppView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 43FF93E8289E91960078C128 /* ExampleAppView.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +55,8 @@
 		43FF93E4289E8BC40078C128 /* imstb_textedit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imstb_textedit.h; sourceTree = "<group>"; };
 		43FF93E5289E8BE00078C128 /* imstb_rectpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imstb_rectpack.h; sourceTree = "<group>"; };
 		43FF93E6289E8BF30078C128 /* imstb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imstb_truetype.h; sourceTree = "<group>"; };
+		43FF93E7289E8FF10078C128 /* ExampleAppView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleAppView.h; sourceTree = "<group>"; };
+		43FF93E8289E91960078C128 /* ExampleAppView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleAppView.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 			children = (
 				43FF93C8289E89530078C128 /* imgui */,
 				4080A98A20B02CD90036BA46 /* main.mm */,
+				43FF93E7289E8FF10078C128 /* ExampleAppView.h */,
+				43FF93E8289E91960078C128 /* ExampleAppView.mm */,
 				43FF93DC289E8B530078C128 /* imgui_impl_osx.mm */,
 				43FF93D7289E89950078C128 /* imgui_impl_opengl3.cpp */,
 				43FF93D2289E895C0078C128 /* imgui.cpp */,
@@ -187,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43FF93E9289E91960078C128 /* ExampleAppView.mm in Sources */,
 				43FF93DE289E8B9E0078C128 /* imgui_draw.cpp in Sources */,
 				43FF93DD289E8B9C0078C128 /* imgui_impl_osx.mm in Sources */,
 				43FF93E3289E8BA80078C128 /* imgui_impl_opengl3.cpp in Sources */,

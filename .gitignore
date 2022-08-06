@@ -1,0 +1,5 @@
+.DS_Store
+.Trashes
+
+*.xccheckout
+example_apple_opengl3.xcodeproj/project.xcworkspace/xcuserdata/*
